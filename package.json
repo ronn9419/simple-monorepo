@@ -1,0 +1,18 @@
+{
+  "name": "alias",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.8.4",
+    "ramda": "^0.26.1",
+    "react": "^16.8.3",
+    "redux": "^4.0.1"
+  }
+}
