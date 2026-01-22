@@ -11,11 +11,13 @@ function storeHighScore(userId, score) {
     .database()
     .ref("users/" + userId)
     .set({
-      highscore: score
+      highscore: score,
     });
 }
 
 storeHighScore("123", 100);
+
+console.log("Test");
 
 export default class App extends React.Component {
   render() {
@@ -32,6 +34,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center"
-  }
+    justifyContent: "center",
+  },
 });
